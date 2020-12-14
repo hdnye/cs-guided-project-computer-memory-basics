@@ -23,4 +23,7 @@ if there is a mathematical approach that you can take.*
 """
 def to_lower_case(string):
     # Your code here
+    return string.lower()
 
+string = "LambdaSchool"
+print(to_lower_case(string))
